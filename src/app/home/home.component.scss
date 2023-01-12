@@ -1,0 +1,25 @@
+.example-card {
+    max-width: 600px;
+    background-color: coral;
+    color: whitesmoke ;
+    text-align: center;
+   padding: 5px 0 5px 0;
+
+  }
+ 
+  .text-label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: whitesmoke;
+  }
+  mat-slider {
+    margin-left: 20px;
+    width: 150px;
+    margin-top: 5px;
+  }
+  ::ng-deep {
+    .mat-slider-horizontal .mat-slider-track-background{
+      background-color: white;
+    }
+  }
